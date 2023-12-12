@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-python-basic
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rorai-tenant/devfile-sample-python-basic/devfile-sample-python-basic@sha256:b6e95c5562edfc44b641fd3732c4b476d05269406d74fbcac4273bfc0ebf8c40
+        name: my-python
+        resources: {}
+status: {}
