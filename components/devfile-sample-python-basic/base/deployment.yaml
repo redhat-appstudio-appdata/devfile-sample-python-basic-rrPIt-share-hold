@@ -33,6 +33,6 @@ spec:
           protocol: TCP
         resources:
           requests:
-            cpu: 9m
+            cpu: 8m
             memory: 50Mi
 status: {}
